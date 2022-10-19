@@ -1,0 +1,25 @@
+tipos de display css
+
+block: preenche toda a página
+
+inline: preenche apenas o conteúdo,mas não tem como manipular width e height
+
+inline-block: preenche apenas o conteúdo,mas diferente do inline puro
+ esse nos permite manipular width e height
+
+
+tipos de position css
+
+relative: posição inicial de qualquer elemento,isso é na parte esquerda superior da tela.
+cada position nos permite movimentar o nosso elemento(top,right,bottom,left).
+
+absolute: diferente do relative ele é absoluto,se colocamos right ele irá aparecer na parte direita da página
+e tudo será referente ao lado direito.
+
+fixed: a mesma coisa,a diferença é que ele se mantém
+
+obs sobre o absolute:
+caso criarmos uma div, e declararmos que a mesma é relativa, e dentro colocamos uma imagem e declaramos sua posição
+como absolut right 0px,a imagem irá para o lado direito daquele container.Isso porque tal imagem tem como referência o elemento pai que está utilizando o relative.
+
+caso colocamos dentro de uma div várias imagens absolut elas se sobrepõe uma a outra, para resolver o problema veremos mais para a frente uma propriedade chamada 'z-index'.

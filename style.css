@@ -14,32 +14,49 @@ table{
 
 #d1{
 background-color: rgb(168, 218, 168);
-border: 18px solid black;
+border: 5px solid black;
 width: 200px;
 height: 200px;
+display: inline-block;
+position: relative;
+margin-left: 10px;
 }
 
 #d2{
+display: inline-block;
 background-color: red;
-border: 10px solid black;
+border: 5px solid black;
 width: 200px;
 height: 200px;
-margin-left: 218px;
 
 }
 
 #d3{
+display: inline-block;
 background-color: yellow;
-border: 10px solid black ;
+border: 5px solid black ;
 width: 200px;
 height: 200px;
-margin-left: 436px;
 
 }
 
-main{
-    padding-top: 100px;
+#container{
+    width: 645px;
+    margin-left: 10px;
+    height: 400px;
+    background-color: grey;
+    border: 2px solid black;
+    position: relative;
 }
+#d4{
+    display: inline-block;
+    background-color: #00e1ff;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+
+    
+    }
 
 #img-1{
     width: 142px;
