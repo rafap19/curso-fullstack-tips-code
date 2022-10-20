@@ -69,3 +69,20 @@ height: 200px;
 #img-3{
     width: 300px;
 }
+
+h1{
+    font-size: 250%;
+}
+
+h2{
+    text-align: center;
+}
+#rocket{
+    float: left;
+    width: 20%;
+}
+
+#walk{
+    float: right;
+    width: 20%;
+}

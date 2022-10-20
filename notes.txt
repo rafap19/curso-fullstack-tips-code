@@ -23,3 +23,13 @@ caso criarmos uma div, e declararmos que a mesma é relativa, e dentro colocamos
 como absolut right 0px,a imagem irá para o lado direito daquele container.Isso porque tal imagem tem como referência o elemento pai que está utilizando o relative.
 
 caso colocamos dentro de uma div várias imagens absolut elas se sobrepõe uma a outra, para resolver o problema veremos mais para a frente uma propriedade chamada 'z-index'.
+
+
+
+Unidades de medida
+
+16px = 100%
+
+caso queira 90px basta dividir por 16 e multiplicar por 100,dessa forma convertemos de px para porcento.
+
+a unidade pixel é fixa,então não altera de acordo com as telas 
