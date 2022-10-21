@@ -11,6 +11,17 @@ div{
 .caixa{
     margin:auto;
     display: flex;
-    width: 30%;
-    flex-wrap: wrap;
+    height: 300px;
+    width: 600px;
+}
+
+.caixa div{
+   width: 100px;
+   flex-grow: 1;
+   
+}
+
+.caixa div:nth-child(3){
+    background-color: #74cd7b;
+
 }
