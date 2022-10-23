@@ -33,3 +33,7 @@ Unidades de medida
 caso queira 90px basta dividir por 16 e multiplicar por 100,dessa forma convertemos de px para porcento.
 
 a unidade pixel é fixa,então não altera de acordo com as telas 
+
+flex basis - Propriedade que manipula o main axis dos elementos flex,isso significa que se colocarmos uma largura de 100px todos os elementos flex ficarão com 100px. 
+
+se compararmos o flex-basis com width, o flex basis tem uma ordem de precedência maior.
